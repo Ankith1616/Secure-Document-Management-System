@@ -1,0 +1,17 @@
+[
+  {
+    "id": "EMP.25.12345",
+    "password": "$2b$10$Ck2GOeh3WkjXusKpbHyVruthtvjdb31jmbaB.IdmFOtjyfQiJuN8C",
+    "role": "EMPLOYEE"
+  },
+  {
+    "id": "MA.24.00250",
+    "password": "$2b$10$4ciaQDD0PQNev6PAw.9NyOeME2xMuZIL.51qLAQf.au85YcQjc18e",
+    "role": "MANAGER"
+  },
+  {
+    "id": "AD.20.00001",
+    "password": "$2b$10$Qytpsz3/skOS82H3N50Fd.06ifY1q.HeY8hl7QOHkhe4KJ8lt0KZO",
+    "role": "ADMIN"
+  }
+]
