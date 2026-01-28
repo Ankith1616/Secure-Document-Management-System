@@ -1,0 +1,162 @@
+.audit-container {
+    padding-top: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
+}
+
+.audit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-lg);
+    gap: var(--spacing-md);
+}
+
+.audit-header h1 {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-xs);
+    background: linear-gradient(135deg, var(--primary-light) 0%, var(--accent) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.audit-header p {
+    color: var(--text-secondary);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.integrity-badge {
+    padding: 1rem 1.5rem;
+    border-radius: var(--radius-md);
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-weight: 700;
+    min-width: 250px;
+}
+
+.integrity-badge.valid {
+    background: hsla(142, 76%, 45%, 0.1);
+    border: 1px solid var(--success);
+    color: var(--success);
+}
+
+.integrity-badge.tampered {
+    background: hsla(0, 84%, 60%, 0.1);
+    border: 1px solid var(--danger);
+    color: var(--danger);
+    animation: pulse 2s infinite;
+}
+
+.integrity-msg {
+    font-size: 0.8rem;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.filter-section {
+    margin-bottom: var(--spacing-lg);
+    padding: var(--spacing-md);
+}
+
+.audit-filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: var(--spacing-md);
+    align-items: flex-end;
+}
+
+.filter-group label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.4rem;
+    font-weight: 600;
+}
+
+.logs-table-wrapper {
+    overflow-x: auto;
+    padding: 0;
+}
+
+.audit-table th {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.action-badge {
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.action-badge.login_complete {
+    background: hsla(142, 76%, 45%, 0.2);
+    color: var(--success);
+}
+
+.action-badge.login_request {
+    background: hsla(240, 100%, 65%, 0.2);
+    color: var(--primary-light);
+}
+
+.action-badge.document_upload {
+    background: hsla(280, 100%, 65%, 0.2);
+    color: var(--secondary);
+}
+
+.action-badge.document_delete {
+    background: hsla(0, 84%, 60%, 0.2);
+    color: var(--danger);
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info .username {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.user-info .role {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.timestamp {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.ip-cell {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.hash-status .hash-tag {
+    font-size: 0.75rem;
+    color: var(--success);
+    opacity: 0.7;
+}
+
+@media (max-width: 1024px) {
+    .audit-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .integrity-badge {
+        width: 100%;
+    }
+}

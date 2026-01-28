@@ -1,0 +1,101 @@
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-md);
+}
+
+.auth-card {
+    max-width: 480px;
+    width: 100%;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.auth-icon {
+    font-size: 4rem;
+    margin-bottom: var(--spacing-sm);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.auth-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--primary-light), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--spacing-xs);
+}
+
+.auth-header p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.auth-form {
+    margin-bottom: var(--spacing-md);
+}
+
+.auth-options {
+    text-align: right;
+    margin-bottom: var(--spacing-md);
+}
+
+.auth-options a {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.auth-options a:hover {
+    color: var(--primary-light);
+    text-decoration: underline;
+}
+
+.btn-full {
+    width: 100%;
+    justify-content: center;
+    margin-top: var(--spacing-sm);
+}
+
+.auth-footer {
+    text-align: center;
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+}
+
+.auth-footer a {
+    color: var(--primary-light);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color var(--transition-fast);
+}
+
+.auth-footer a:hover {
+    color: var(--primary);
+}
+
+.security-badge {
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-sm);
+    background: hsla(240, 100%, 65%, 0.05);
+    border: 1px solid hsla(240, 100%, 65%, 0.2);
+    border-radius: var(--radius-md);
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.security-badge span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}

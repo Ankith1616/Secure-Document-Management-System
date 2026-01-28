@@ -1,0 +1,84 @@
+[
+  {
+    "id": "ace54099-38a9-413a-aa1e-823c1b7795b5",
+    "filename": "survey_details_luna16.docx",
+    "storagePath": "d7e25e93-510a-4a7e-a321-15b73e99d490.enc",
+    "uploaderId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "uploaderName": "Ankith",
+    "uploadedAt": "2026-01-27T19:28:37.114Z",
+    "status": "APPROVED",
+    "approverId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "approvalData": {
+      "signedAt": "2026-01-27T19:40:27.175Z",
+      "signature": "eKneZsZFzabEjGiZnv6ijsFnTXXklUapjDKWcrqtUd3QgAU1Bo2x4LgmZ+lK1o9Sl+uhM1hZ/YwA62i1ZuckbUSJ5DV0wHNkLs6WSOnW7cfk94j2vYJhK79PsiMAGBbLjbDzLLo3CE/8zagBMRzhqDca31ovYhS+/6CnPcknNU2reM5VGIvulAzioLK6II3w8/VmcOyNp991V/teMNHfUiyZssujakKJoybCdG7iDc1MVCbb5fQ/lKIwtRr7kjW3TPoyETZ591gxH9pSfQrR78/R8YAtWnKQBnFAroHNzskVZzoKco4mo0NKHfY+Wb5/Wn0/VWoETh81YNXuNrSgHg==",
+      "metadataHash": "8027088c74a7d53123bb8356e7c3ea879cf0bcc9ec2460744b0cf9cbaed23575"
+    },
+    "approverName": "Ankith"
+  },
+  {
+    "id": "c2d9c470-d8a7-44e8-bd81-7c109d2b5d74",
+    "filename": "Lung_Cancer_Research_-_Amrita_Theme.pdf",
+    "storagePath": "983c14e2-f38b-40d5-a880-579fc79d25d7.enc",
+    "uploaderId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "uploaderName": "Hemanth",
+    "uploadedAt": "2026-01-27T20:05:10.326Z",
+    "status": "APPROVED",
+    "approverId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "approvalData": {
+      "signedAt": "2026-01-27T20:05:14.011Z",
+      "signature": "rq9ejxY3tKgtUJ7k+r6LipWi4p6MvBnniValXM0kJVQytHNHLiO1+kK8/Pxfw1qn75kBvWBSf4xfQN72vh98DxnMHNpG3GWyyfD9Km9kWRiqeuV5K1E6FU0cpOoQgWudNv5kPpkGTnutdeDqzn2okMB8WPvuWMIRPiNgp6Yl7rWbAO5V0C/eNy8IBfm4RlO6HP7bsaCP77X8JupVoRe9Oq2SnedXfKgkgHL+ZqAsJoBb8T0ifjomkOZsZMLku2YtyjkbXEmOJe0detNwJYxzlf3vBIKgLFm/iA8ZObICDu8ga1g4ePtdny+9K89fcqK5nmrAqJENtyt6/kkjCFIO4A==",
+      "metadataHash": "9ce946dd8294a302e72ccc6a7e5f920c4ec8c8403dac846648490131d0515232"
+    },
+    "approverName": "Hemanth"
+  },
+  {
+    "id": "b041e38a-87da-4889-bc4c-08a15f8767a0",
+    "filename": "Automated_System_for_Lung_Nodule_Classification_Based_on_ResNet50_and_SVM.pdf",
+    "storagePath": "1d3be7a6-073d-4e4e-abed-9059323da597.enc",
+    "uploaderId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "uploaderName": "Revanth",
+    "uploadedAt": "2026-01-27T20:55:05.057Z",
+    "status": "REJECTED",
+    "approverId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "approvalData": null,
+    "approverName": "Hemanth"
+  },
+  {
+    "id": "f4a35763-a7c0-46cf-92c5-0bf439b5ae99",
+    "filename": "Lung_Cancer_Research_-_Amrita_Theme.pdf",
+    "storagePath": "188f2ac8-e6f4-4bff-adf1-407d23d770f1.enc",
+    "uploaderId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "uploaderName": "Ankith",
+    "uploadedAt": "2026-01-28T06:10:43.347Z",
+    "status": "APPROVED",
+    "approverId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "approvalData": {
+      "signedAt": "2026-01-28T06:11:02.329Z",
+      "signature": "jPCUJenfXPlUD3xTGqOnbZYNSQbNPd5cDDkh2kDvEZqfcSd2V6Um/3OcrYX9Hs8Xtvl/c7yyykLHXnx2Lk/zkZ4OvZhIKSwuHYF/+9gAmFI7W7n3HylXEN/jC1YoNnp9njM+/07YHY4iAGGb5PCj7VB0zC2OiLQep+ygrsTGih5wHP8SOyJba24DANkZccKdyGC7w15b0KUUWsXapQFTRz6mzDsA0Hr8uTA5JAWoFaeHnZggjZHwxAtFt488BXJaRawrmbI38rxLrJvscO9wGvL4GOik6Qfuzvw0GXIUm6f+A3F1o6F1TMw1dtKeqbAteWlvppXi7co0R2y5frBsAg==",
+      "metadataHash": "bded663d85cd42eba2223e86921c578916faeea0c4019883fef2e5c125e52555"
+    },
+    "approverName": "Ankith"
+  },
+  {
+    "id": "a0ae2042-aaeb-4db5-beb3-be6eecd9f98b",
+    "filename": "Lung_Cancer_Research_-_Amrita_Theme.pdf",
+    "storagePath": "69432360-81c2-4b1a-ba46-a1b5b7a67b5f.enc",
+    "uploaderId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "uploaderName": "Ankith",
+    "uploadedAt": "2026-01-28T09:54:41.087Z",
+    "status": "PENDING",
+    "approverId": null,
+    "approvalData": null
+  },
+  {
+    "id": "9cfab410-8894-4630-98b1-df027bbd1515",
+    "filename": "survey_details_luna16.docx",
+    "storagePath": "d033ca36-c776-478b-aa48-bc7a0ffa07a2.enc",
+    "uploaderId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "uploaderName": "Revanth",
+    "uploadedAt": "2026-01-28T09:55:09.606Z",
+    "status": "PENDING",
+    "approverId": null,
+    "approvalData": null
+  }
+]

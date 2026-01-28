@@ -1,0 +1,57 @@
+.signature-details {
+    padding: 10px 0;
+}
+
+.signature-status {
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 20px;
+    background: rgba(0, 255, 127, 0.05);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 255, 127, 0.2);
+}
+
+.status-icon {
+    font-size: 3rem;
+    color: #00ff7f;
+    margin-bottom: 10px;
+}
+
+.detail-item {
+    margin-bottom: 15px;
+}
+
+.detail-item label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.detail-value {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    color: var(--text-primary);
+}
+
+.hash-text,
+.signature-text {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 0.85rem;
+    word-break: break-all;
+    max-height: 100px;
+    overflow-y: auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.security-note {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: var(--primary-color);
+    text-align: center;
+    font-style: italic;
+}

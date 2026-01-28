@@ -1,0 +1,71 @@
+.encryption-modal {
+    max-width: 650px;
+    border-top: 5px solid var(--primary-light);
+}
+
+.encryption-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    position: relative;
+}
+
+.encryption-icon {
+    font-size: 2.5rem;
+    filter: drop-shadow(0 0 10px rgba(99, 102, 241, 0.3));
+}
+
+.encryption-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+}
+
+.encryption-status.secure {
+    background: hsla(240, 100%, 65%, 0.1);
+    border: 1px solid var(--primary-light);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.encryption-status h3 {
+    margin: 0;
+    color: var(--primary-light);
+}
+
+.encryption-status p {
+    margin: 0.25rem 0 0;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.crypto-info-box {
+    background: rgba(0, 0, 0, 0.2);
+    border-left: 3px solid var(--accent);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: var(--spacing-md);
+}
+
+.crypto-info-box p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+.secure-badge {
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: var(--primary-light);
+    opacity: 0.3;
+    border: 2px dashed var(--primary-light);
+    padding: 0.2rem 0.6rem;
+    transform: rotate(5deg);
+    user-select: none;
+}

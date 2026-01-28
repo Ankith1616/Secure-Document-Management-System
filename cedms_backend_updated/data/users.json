@@ -1,0 +1,29 @@
+[
+  {
+    "id": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "email": "ankith133079@gmail.com",
+    "passwordHash": "$2b$10$K1wOsWqFaI6Ca8I/qSrh5.dElDkCTbrNib8mhu0SW7kavccfv3F9a",
+    "role": "MANAGER",
+    "fullName": "Padmanabhuni Ankith",
+    "createdAt": "2026-01-27T19:16:32.756Z"
+  },
+  {
+    "id": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "email": "pvasavisrinivasarao@gmail.com",
+    "passwordHash": "$2b$10$jnM7YElsnJmZiW0y6AHh0.07WHpX7L6Khq4ExrpxDGCMhbZqB7I2C",
+    "role": "EMPLOYEE",
+    "fullName": "Revanth",
+    "createdAt": "2026-01-27T19:18:50.245Z"
+  },
+  {
+    "id": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "email": "bommadihemanth@gmail.com",
+    "passwordHash": "$2b$10$8EAVEUNEJVQErns71hfosuKKv1lcht6KsScVAAtvw9Chs18RqEhsG",
+    "role": "ADMIN",
+    "fullName": "Hemanth",
+    "createdAt": "2026-01-27T19:19:51.428Z"
+  }
+]

@@ -1,0 +1,1605 @@
+[
+  {
+    "timestamp": "2026-01-27T19:47:34.382Z",
+    "action": "AUDIT_LOGS_CLEARED",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "reason": "Admin requested clear",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "baad68f5c1e4cdd87ec38308aa0f1a911b2ebad59af706c4896d03d51dba013f"
+  },
+  {
+    "timestamp": "2026-01-27T19:50:03.812Z",
+    "action": "DOCUMENT_DELETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "docId": "4c7b5e5a-7daa-4479-ad60-8349abcb37aa",
+      "filename": "project-structure.txt",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "89fd27c16371930b5d02b62b7239ec6cf659a2b140ec20d4e8a9aaeb8aec02e9"
+  },
+  {
+    "timestamp": "2026-01-27T19:57:12.828Z",
+    "action": "DOCUMENT_DOWNLOAD",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "docId": "56df82ce-d24e-4907-a443-a7920e809e10",
+      "filename": "Patch-Based_Lung_Nodule_Malignancy_Classification_Using_Vision_Transformer_with_XAI_Interpretation.pdf",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "e9649bdebd1bdf26b8cc399feb7c7e2ff2a56b923a6c69dc8d98d28ff9523825"
+  },
+  {
+    "timestamp": "2026-01-27T20:04:21.587Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "email": "bommadihemanth@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "514e29fb9d350c0ac76fc1623b7eb3a610b78235238b5766a8def6e6af488788"
+  },
+  {
+    "timestamp": "2026-01-27T20:04:37.009Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "role": "ADMIN",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "970f872462d70fe4935aa2b3493376794d1400196ef36477c47e096a4a7ddd3d"
+  },
+  {
+    "timestamp": "2026-01-27T20:05:10.328Z",
+    "action": "DOCUMENT_UPLOAD",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "docId": "c2d9c470-d8a7-44e8-bd81-7c109d2b5d74",
+      "filename": "Lung_Cancer_Research_-_Amrita_Theme.pdf",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "37dda505729eb79f5c6e3e153ec5e66b5aa3401d96e8cadbb068a46992c20281"
+  },
+  {
+    "timestamp": "2026-01-27T20:05:14.023Z",
+    "action": "DOCUMENT_STATUS_UPDATE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "docId": "c2d9c470-d8a7-44e8-bd81-7c109d2b5d74",
+      "filename": "Lung_Cancer_Research_-_Amrita_Theme.pdf",
+      "newStatus": "APPROVED",
+      "isSigned": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "e1f7289624d419fa679921bdaa076d5cacf3b25ab1a01f99f9464760a0e8c10a"
+  },
+  {
+    "timestamp": "2026-01-27T20:09:20.622Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "4972d54fbb6132fc239aef1632239b427a8d58079dc6f4a0168507e7e1472779"
+  },
+  {
+    "timestamp": "2026-01-27T20:10:08.724Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "email": "bommadihemanth@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "322435b4dcb5bc54ac4031b7c3109cab298f72d62de9d4e9aeef75c089fa4013"
+  },
+  {
+    "timestamp": "2026-01-27T20:10:22.716Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "role": "ADMIN",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "daf889d0f5a3f4d6160542cae69c56210bf5b678c8739dafed0922afa78e6b8a"
+  },
+  {
+    "timestamp": "2026-01-27T20:10:36.156Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "c063168c4cb386837a15f43ae8d76b1f6edaf31bc73257f4f239c309fe39d36c"
+  },
+  {
+    "timestamp": "2026-01-27T20:10:45.300Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "role": "MANAGER",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "53b429fa15e2b626c178ac6fea3eba19082df9175a1265265aeabcce29ea7a60"
+  },
+  {
+    "timestamp": "2026-01-27T20:23:46.069Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "3f020cd7d5608005dbcfc7c0a7da266480015fc5be367cab9710cb43dd70f1d2"
+  },
+  {
+    "timestamp": "2026-01-27T20:24:01.883Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "role": "MANAGER",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "a1d3731f25bfffb678fbe92e5744a02497fbc5062fd72d34c288aa0f3c5ef95a"
+  },
+  {
+    "timestamp": "2026-01-27T20:27:46.917Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "fa1f57b366f318b76fe722765358763059af3b5f16f6e6c934178a9e922d55e7"
+  },
+  {
+    "timestamp": "2026-01-27T20:28:05.953Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "role": "MANAGER",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "d09cab202dfbf38510091580b691d227355d8e4098a82647bded188ba704d3fe"
+  },
+  {
+    "timestamp": "2026-01-27T20:34:10.299Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "b3ff5a4b646af4752dbd7c1616f62a36e5cb872f353cf2d689b7ecdaceb9dc76"
+  },
+  {
+    "timestamp": "2026-01-27T20:34:20.601Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "role": "MANAGER",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "51b98ffef92bfc5d6fca3b4409aa0003560e116a079a9a0b74f7c5f838353824"
+  },
+  {
+    "timestamp": "2026-01-27T20:34:32.962Z",
+    "action": "DOCUMENT_UPLOAD",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "docId": "870ee9e1-a555-439b-ac2e-f6c7c1e0e602",
+      "filename": "A_Low-Cost_Model_for_Lung_Nodule_Classification_from_3D_CT_Images_Using_the_Feature-Fused_Orthogonal_Views_with_Parallel_2D_CNNs.pdf",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "16cdb826173a02842b744d5ab0cf35a78d08603aa7e4c61ee51bb188bf258b86"
+  },
+  {
+    "timestamp": "2026-01-27T20:43:26.625Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "8a70927c6e4c0f2c739fbc77f6ca874fbdc4328477477b943942541135da25e6"
+  },
+  {
+    "timestamp": "2026-01-27T20:43:45.482Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "role": "MANAGER",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "daf68485846fba0db7ecc1410fc799993590e06edbc54002c732ea3a7575d02d"
+  },
+  {
+    "timestamp": "2026-01-27T20:54:16.028Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "email": "pvasavisrinivasarao@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "fb9286b2daba309c05b0b971c60504f869cfe68724a4f575781688c8821679e0"
+  },
+  {
+    "timestamp": "2026-01-27T20:54:40.269Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "email": "pvasavisrinivasarao@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "f566e3a825cb27507c86ec6e1159567f11bca809792ce04e516871c389459b76"
+  },
+  {
+    "timestamp": "2026-01-27T20:54:52.071Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "EMPLOYEE",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "role": "EMPLOYEE",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "24c1779e35fcd82b7f8585a71bcda0cc4f8f8ec6b11614b7c469753484e142d0"
+  },
+  {
+    "timestamp": "2026-01-27T20:55:05.059Z",
+    "action": "DOCUMENT_UPLOAD",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "EMPLOYEE",
+    "ip": "::1",
+    "metadata": {
+      "docId": "b041e38a-87da-4889-bc4c-08a15f8767a0",
+      "filename": "Automated_System_for_Lung_Nodule_Classification_Based_on_ResNet50_and_SVM.pdf",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "102c7baa36824c78d5dcea96fe6d5938bac1e4548c4f458f7b6ebe37407ca67c"
+  },
+  {
+    "timestamp": "2026-01-27T20:55:26.903Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "email": "bommadihemanth@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "cd3ba3aaf2702d987e0e78bb7dd277c72396967bcf54a65de7aefa33c360f2f1"
+  },
+  {
+    "timestamp": "2026-01-27T20:55:36.292Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "role": "ADMIN",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "709fe3e86c6083b3b914f3167fed1d2bca75335ee6f147dfce8c9a23d937bfaa"
+  },
+  {
+    "timestamp": "2026-01-27T20:55:42.863Z",
+    "action": "DOCUMENT_STATUS_UPDATE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "docId": "870ee9e1-a555-439b-ac2e-f6c7c1e0e602",
+      "filename": "A_Low-Cost_Model_for_Lung_Nodule_Classification_from_3D_CT_Images_Using_the_Feature-Fused_Orthogonal_Views_with_Parallel_2D_CNNs.pdf",
+      "newStatus": "APPROVED",
+      "isSigned": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "59493e425d5dfb073c1243cf7b3af311231f766270de7f59c6f17d56dcc4b721"
+  },
+  {
+    "timestamp": "2026-01-27T20:55:47.184Z",
+    "action": "DOCUMENT_STATUS_UPDATE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "docId": "b041e38a-87da-4889-bc4c-08a15f8767a0",
+      "filename": "Automated_System_for_Lung_Nodule_Classification_Based_on_ResNet50_and_SVM.pdf",
+      "newStatus": "REJECTED",
+      "isSigned": false,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "5426fbd306ef2b497cf4054251438a791c1579ae4bd0ac96bd782aceb9fa94d1"
+  },
+  {
+    "timestamp": "2026-01-27T20:56:03.117Z",
+    "action": "DOCUMENT_DELETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "docId": "870ee9e1-a555-439b-ac2e-f6c7c1e0e602",
+      "filename": "A_Low-Cost_Model_for_Lung_Nodule_Classification_from_3D_CT_Images_Using_the_Feature-Fused_Orthogonal_Views_with_Parallel_2D_CNNs.pdf",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "c5de778812956101c8359dfbef7206971c3dbd3cf932be0f889206149530489c"
+  },
+  {
+    "timestamp": "2026-01-27T20:56:25.253Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "email": "pvasavisrinivasarao@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "cda948d87f13b12e39fd3a4a85336932175f8b1e1ffaa49c77a2de21d3fd7625"
+  },
+  {
+    "timestamp": "2026-01-27T20:56:34.303Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "EMPLOYEE",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "role": "EMPLOYEE",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "11e5239a321da073db85a32c0d6c25426a8054a1b0860e36a0be7b23e9c7c7ce"
+  },
+  {
+    "timestamp": "2026-01-27T20:56:40.090Z",
+    "action": "DOCUMENT_DOWNLOAD",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "EMPLOYEE",
+    "ip": "::1",
+    "metadata": {
+      "docId": "56df82ce-d24e-4907-a443-a7920e809e10",
+      "filename": "Patch-Based_Lung_Nodule_Malignancy_Classification_Using_Vision_Transformer_with_XAI_Interpretation.pdf",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "69ae6963ca56ccb10cbab3ecadfe35e20c30e2eb5bc9b750d881e750a72ede79"
+  },
+  {
+    "timestamp": "2026-01-27T21:19:30.016Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "email": "pvasavisrinivasarao@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "c9c5f39e2b1684b1fa9ac561c747e9a817e0e9a41b12d01e53e0086826f1e424"
+  },
+  {
+    "timestamp": "2026-01-27T21:19:41.343Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "EMPLOYEE",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "role": "EMPLOYEE",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "402c53a6316eb54857f4df05f426880bc113924064c3866a6cf874b2ffc7fc4e"
+  },
+  {
+    "timestamp": "2026-01-28T05:36:18.430Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "email": "pvasavisrinivasarao@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "6101c1c9df9c766f2c16e45ddd9f2645a04228f9566664da841dff1183c291c5"
+  },
+  {
+    "timestamp": "2026-01-28T05:36:28.804Z",
+    "action": "LOGIN_VERIFY",
+    "userId": "SYSTEM",
+    "username": "SYSTEM",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "email": "pvasavisrinivasarao@gmail.com",
+      "error": "Invalid OTP. 2 attempt(s) remaining.",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "FAILURE",
+    "hash": "cce8ab6f2b8a7319c4840954ada428d2aa6256c00ac81c24d03846cb9230030a"
+  },
+  {
+    "timestamp": "2026-01-28T05:36:32.563Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "email": "pvasavisrinivasarao@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "e05a4dbac0f869676d2e58e9db7b9c9a7dbc9ff34eb2bd8b2c1fce6f9022cf67"
+  },
+  {
+    "timestamp": "2026-01-28T05:37:17.837Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "EMPLOYEE",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "role": "EMPLOYEE",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "738349de9e8515f1e60b591980cbc77a9b4a81642a0e5474737f1c34278aff48"
+  },
+  {
+    "timestamp": "2026-01-28T05:38:20.135Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "email": "bommadihemanth@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "1dd3cf803070754a405b9861f2b0c2342bedb488109bc4d7f92102bae34bf20e"
+  },
+  {
+    "timestamp": "2026-01-28T05:38:35.295Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "role": "ADMIN",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "48764852b06787537f4fd208cfc747e61b8cc6630e0dbf8b7583c24e763c3b40"
+  },
+  {
+    "timestamp": "2026-01-28T05:41:17.247Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "email": "bommadihemanth@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "29657025a78a71491b4f635f98bbb7bf5a869ddc25a66c11109621cc6f931dde"
+  },
+  {
+    "timestamp": "2026-01-28T05:41:29.671Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "role": "ADMIN",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "2f94c2f6cfc41c34dd473869ff643269e9936bf4bdd0d7e2265251dc28b92ca0"
+  },
+  {
+    "timestamp": "2026-01-28T05:41:40.320Z",
+    "action": "PASSWORD_RESET_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "email": "ankith133079@gmail.com",
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "f74094b422624458313f395267b1ba134728f32f39c15bf9dce0ede8ac51cfc1"
+  },
+  {
+    "timestamp": "2026-01-28T05:43:36.426Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "email": "bommadihemanth@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "63c7c9d465b973086818a0dc162b4efb52107c4ed6202d4a87a5d7f1a857f317"
+  },
+  {
+    "timestamp": "2026-01-28T05:43:43.313Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "role": "ADMIN",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "8964fff2ae69b41a3c1bb0b99c97abd456713818b8f99d5cdfa0c755fe5db445"
+  },
+  {
+    "timestamp": "2026-01-28T05:50:28.254Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "a1489641d60efbacf12ab70cb3af0a152b15d86f6a963dcc9ade5bc4b883be6c"
+  },
+  {
+    "timestamp": "2026-01-28T05:50:41.874Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "role": "MANAGER",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "e6a80f5f695a848920ce356e87328e8dacb63a06b95e0843bb108a26c1108575"
+  },
+  {
+    "timestamp": "2026-01-28T05:50:57.260Z",
+    "action": "PASSWORD_RESET_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "email": "ankith133079@gmail.com",
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "119f5c94b378d6d47e9624aaf40cd8617d9285aba26065b579c52b18619bc158"
+  },
+  {
+    "timestamp": "2026-01-28T05:56:22.542Z",
+    "action": "PASSWORD_RESET_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "email": "ankith133079@gmail.com",
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "ee88f77c26614cf20cc66e89455caef2eeaa9a9ba51912234a325cd039ab38b6"
+  },
+  {
+    "timestamp": "2026-01-28T05:56:36.995Z",
+    "action": "PASSWORD_RESET_VERIFY",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "947f1c1fa3cda44e0176b15ff5bbd55406867eaed376d2bd5c52108cbac779bc"
+  },
+  {
+    "timestamp": "2026-01-28T06:00:35.500Z",
+    "action": "PASSWORD_RESET_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "email": "ankith133079@gmail.com",
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "55e3ff4ae28b8f6aecc231262ce2c86cc04226545e365c511243a1c1ff1a700d"
+  },
+  {
+    "timestamp": "2026-01-28T06:00:47.551Z",
+    "action": "PASSWORD_RESET_VERIFY",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "877eafe76e7e9fe2023d4bb5a5279fffa451bbe9f557900f50b320644fd2a5d6"
+  },
+  {
+    "timestamp": "2026-01-28T06:00:58.318Z",
+    "action": "PASSWORD_RESET_SUCCESS",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "66f18d1710476a9965e1e1f6a661e1d87939a1fba0bcb6558cab399a313afc85"
+  },
+  {
+    "timestamp": "2026-01-28T06:01:06.808Z",
+    "action": "PASSWORD_RESET_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "email": "ankith133079@gmail.com",
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "9f049dea76cad2b75ce659b644b5f640dec7771780155d29bc045ca3d7b3e874"
+  },
+  {
+    "timestamp": "2026-01-28T06:01:18.628Z",
+    "action": "PASSWORD_RESET_VERIFY",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "fa88db007bb449ae32e4bdfa70fa5438cb6fa372c0feff08dc01e4a0a9817980"
+  },
+  {
+    "timestamp": "2026-01-28T06:01:27.185Z",
+    "action": "PASSWORD_RESET_SUCCESS",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "0d39140472a50ba16fb0a6cfb564fba57c919e0e7b9b9699c940ddb1889d2c03"
+  },
+  {
+    "timestamp": "2026-01-28T06:03:29.652Z",
+    "action": "PASSWORD_RESET_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "email": "ankith133079@gmail.com",
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "d636a05488fe42bd9a029eed900f71f2ef666c80b813ce9c3159d6188bf208ac"
+  },
+  {
+    "timestamp": "2026-01-28T06:03:51.212Z",
+    "action": "PASSWORD_RESET_VERIFY",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "a512e39b1be73898415e58fe6d61adfa6bee65dfb4dc4e9df83770d4044e79a7"
+  },
+  {
+    "timestamp": "2026-01-28T06:03:57.459Z",
+    "action": "PASSWORD_RESET_SUCCESS",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "c26b7b50a509df9795824079813360f9cd8f8049d96b7402d0ceffbd957ae84c"
+  },
+  {
+    "timestamp": "2026-01-28T06:10:07.597Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "error": "Invalid password",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "FAILURE",
+    "hash": "3a1f9d085322049cbe49230420ecb57c48f972b636d292795909308c837bafd4"
+  },
+  {
+    "timestamp": "2026-01-28T06:10:09.992Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "error": "Invalid password",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "FAILURE",
+    "hash": "a392e8ee0dc4adde1b5cb083ddd667b4263ae26cb1ea7615b6349cd74e16bcb3"
+  },
+  {
+    "timestamp": "2026-01-28T06:10:19.530Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "88ce02d34bbef0f605ff7510cddba3f7fd9a63b52c91616531e24802c5d9ea8c"
+  },
+  {
+    "timestamp": "2026-01-28T06:10:30.977Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "role": "MANAGER",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "b719ddb15376d1dff035e83bf5b35f0442614799736048b94bbad4e361ab988b"
+  },
+  {
+    "timestamp": "2026-01-28T06:10:43.350Z",
+    "action": "DOCUMENT_UPLOAD",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "docId": "f4a35763-a7c0-46cf-92c5-0bf439b5ae99",
+      "filename": "Lung_Cancer_Research_-_Amrita_Theme.pdf",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "405ec27f0fc0a451d848e9ea7d5d9bf604f20120097569da13edb8dd52c56978"
+  },
+  {
+    "timestamp": "2026-01-28T06:11:02.342Z",
+    "action": "DOCUMENT_STATUS_UPDATE",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "docId": "f4a35763-a7c0-46cf-92c5-0bf439b5ae99",
+      "filename": "Lung_Cancer_Research_-_Amrita_Theme.pdf",
+      "newStatus": "APPROVED",
+      "isSigned": true,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "66c6feebc9002435ef506072fc5ae8059cf42f3740d2e5db7972581a23f674d7"
+  },
+  {
+    "timestamp": "2026-01-28T06:20:27.881Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "error": "Invalid password",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "FAILURE",
+    "hash": "d3693ef77696feb07b0a7f372729f7adbc233fe1a843b46a5f8092f4c18371fc"
+  },
+  {
+    "timestamp": "2026-01-28T06:20:36.902Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "648db2d457a69edb5c6bce6404d2ba97c0e86058d21e9836a8d266df0233f459"
+  },
+  {
+    "timestamp": "2026-01-28T06:20:52.321Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "role": "MANAGER",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "08ac195baa106373d83d6b3ccc2d28cb8aa445244cecf7ec6e53eda09fdd836a"
+  },
+  {
+    "timestamp": "2026-01-28T08:12:23.891Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "email": "pvasavisrinivasarao@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "8ce31c198615ac80059e8996c550800d4299ee923496f07697f825c25ac6f00b"
+  },
+  {
+    "timestamp": "2026-01-28T08:12:35.018Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "EMPLOYEE",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "role": "EMPLOYEE",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "ef5fb83230353a5a856482131bdffa268d317fec91bf823a0a7f42107c922983"
+  },
+  {
+    "timestamp": "2026-01-28T08:13:16.285Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "email": "bommadihemanth@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "fd94256df02b9086ee0393725270df75538de16c2056a833ac7830c8a023bb1f"
+  },
+  {
+    "timestamp": "2026-01-28T08:13:26.144Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "role": "ADMIN",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "4adfa914cc9484c6ff53f3c66e9cba17b3a6210f9792b276c75f353e91007b05"
+  },
+  {
+    "timestamp": "2026-01-28T08:18:43.785Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "email": "bommadihemanth@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "fb8b8043eea06918a2af3faf3cc1f5c2012f09a1d995dcf10aff55a36e8a34be"
+  },
+  {
+    "timestamp": "2026-01-28T08:18:53.878Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "role": "ADMIN",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "fc058510345ef522fb485f5c3e38eade80b5ecb52bc78f55ac8094c768d7ff6f"
+  },
+  {
+    "timestamp": "2026-01-28T08:19:19.100Z",
+    "action": "DOCUMENT_DELETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "docId": "56df82ce-d24e-4907-a443-a7920e809e10",
+      "filename": "Patch-Based_Lung_Nodule_Malignancy_Classification_Using_Vision_Transformer_with_XAI_Interpretation.pdf",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "d580ffecd5b3adf3d8ca30b501ec9387da90a7d862041c32c558274f9edaf510"
+  },
+  {
+    "timestamp": "2026-01-28T08:50:17.064Z",
+    "action": "DOCUMENT_DOWNLOAD",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "docId": "ace54099-38a9-413a-aa1e-823c1b7795b5",
+      "filename": "survey_details_luna16.docx",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "5a052d37f8c262c067564808f3f7303a2aad96c151bdeee8fc65bf6246959bf1"
+  },
+  {
+    "timestamp": "2026-01-28T09:08:17.622Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "email": "bommadihemanth@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "0ccda774c2f0a2a800dc1664599521faafa03b87cb0f7c6432d5e2963fd8d9ae"
+  },
+  {
+    "timestamp": "2026-01-28T09:08:43.552Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "email": "bommadihemanth@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "f46e5144dfdc6a87008f3927700ac7da866dda42842505d50d467e79cbc31026"
+  },
+  {
+    "timestamp": "2026-01-28T09:08:50.900Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "role": "ADMIN",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "8805a45a24c1f92b3cf847f0951c24adef136c22238ac7ba3f36eb2f842826d2"
+  },
+  {
+    "timestamp": "2026-01-28T09:08:57.903Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "email": "pvasavisrinivasarao@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "a18fdf074400f8fd8e479c18975f3d64844b7e5b31da733a280c30da8be68626"
+  },
+  {
+    "timestamp": "2026-01-28T09:09:15.852Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "email": "pvasavisrinivasarao@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "117c9f6515b3038c3786aff6641ce91fd7d88af32ed14707eb80ada590d71de5"
+  },
+  {
+    "timestamp": "2026-01-28T09:09:25.473Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "EMPLOYEE",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "role": "EMPLOYEE",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "72035e68b04ec76f273cdb295ac050da74645e620ca410341790c263a696ef18"
+  },
+  {
+    "timestamp": "2026-01-28T09:09:33.652Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "error": "Invalid password",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "FAILURE",
+    "hash": "7e290516a99c91d873bdf3a5151d7b44c4cf02c35e49af06906e4317ea216c91"
+  },
+  {
+    "timestamp": "2026-01-28T09:09:36.102Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "error": "Invalid password",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "FAILURE",
+    "hash": "067f1638ec70a730ff1c618ed7d33b9b1908d008b5df5a6ae28a56b192a80643"
+  },
+  {
+    "timestamp": "2026-01-28T09:09:42.517Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "error": "Invalid password",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "FAILURE",
+    "hash": "b97359bfd9e676d6e102136cd7f38e055978ba613804a1da9bf066f44693ee9e"
+  },
+  {
+    "timestamp": "2026-01-28T09:09:52.339Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "error": "Invalid password",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "FAILURE",
+    "hash": "84dd17250ecb44bb6a0d35f8b509ce5148a5760b984c7dc422c56cf09277a6bf"
+  },
+  {
+    "timestamp": "2026-01-28T09:09:59.264Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "error": "Invalid password",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "FAILURE",
+    "hash": "8cfa65246b0b94de078d2c1671345bcecb65732799aa0024864d2fb867e58978"
+  },
+  {
+    "timestamp": "2026-01-28T09:10:41.911Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "error": "Invalid password",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "FAILURE",
+    "hash": "e7ba6fa3dd83a740e3643fc3cc22218d29cc8989cde8aa75271e9de6d6db8d07"
+  },
+  {
+    "timestamp": "2026-01-28T09:10:52.695Z",
+    "action": "PASSWORD_RESET_REQUEST",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "email": "ankith133079@gmail.com",
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "593f7c7ae0e248d09aa057075ceb2709800b90f7b000ae8f38e194ede3666564"
+  },
+  {
+    "timestamp": "2026-01-28T09:11:04.401Z",
+    "action": "PASSWORD_RESET_VERIFY",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "42e64e5a7a9ec9a2df92fe73ef7277941aef6fdb0b5424e5dfa2371b5f43b53f"
+  },
+  {
+    "timestamp": "2026-01-28T09:11:14.029Z",
+    "action": "PASSWORD_RESET_SUCCESS",
+    "userId": "SYSTEM",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "username": "Ankith",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "b47dafac0e9d8ee9b0d63c8379b51417e3acf5c56b6e2bda9c62496bb15c2af2"
+  },
+  {
+    "timestamp": "2026-01-28T09:11:20.105Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "8939365719fe3cdd8dcadaec8f9067e2706ab89f4832f86fd085676aea3bce72"
+  },
+  {
+    "timestamp": "2026-01-28T09:11:29.118Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "role": "MANAGER",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "e8350bf18dfc92c19ece5046379b88917d016ac72982e0222f6ac9b43d19765b"
+  },
+  {
+    "timestamp": "2026-01-28T09:11:41.346Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "8d8af4b68bfdb49296b2a02d0654cb98c5447babe912f13209d7dc3248525827"
+  },
+  {
+    "timestamp": "2026-01-28T09:54:22.362Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "email": "ankith133079@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "b0e53c5c714ae87f75fa26efb159055f8355f1ed5a7495fa51dc919e520302c5"
+  },
+  {
+    "timestamp": "2026-01-28T09:54:31.069Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+      "username": "Ankith",
+      "role": "MANAGER",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "afb8eab2b0a19a12e7bd93ee3463d5c9c695843f6a8eb96ee9b826f7dbf4d7a1"
+  },
+  {
+    "timestamp": "2026-01-28T09:54:41.090Z",
+    "action": "DOCUMENT_UPLOAD",
+    "userId": "d6797cc7-237a-477f-8387-6ef64a020dd5",
+    "username": "Ankith",
+    "role": "MANAGER",
+    "ip": "::1",
+    "metadata": {
+      "docId": "a0ae2042-aaeb-4db5-beb3-be6eecd9f98b",
+      "filename": "Lung_Cancer_Research_-_Amrita_Theme.pdf",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "aeda3461211b13ad3071af5737ede858cbd78202afc4cf62c442fee923566a60"
+  },
+  {
+    "timestamp": "2026-01-28T09:54:53.198Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "email": "pvasavisrinivasarao@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "ce26ace7725efe0d21ba912b01dbc75a97a29726af712a2d0549ead3d073a701"
+  },
+  {
+    "timestamp": "2026-01-28T09:55:01.702Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "EMPLOYEE",
+    "ip": "::1",
+    "metadata": {
+      "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+      "username": "Revanth",
+      "role": "EMPLOYEE",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "c7f58e702a9d009d931d8f5f3d9d9566f8ee0ac794be6924feb4f978bfead9b5"
+  },
+  {
+    "timestamp": "2026-01-28T09:55:09.609Z",
+    "action": "DOCUMENT_UPLOAD",
+    "userId": "d3e91482-8386-4688-8e29-8dfef59ba9d8",
+    "username": "Revanth",
+    "role": "EMPLOYEE",
+    "ip": "::1",
+    "metadata": {
+      "docId": "9cfab410-8894-4630-98b1-df027bbd1515",
+      "filename": "survey_details_luna16.docx",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "de2a85ae37a2e56986dca611975320635aa882dfe254ba83dc040bf9e8b9e289"
+  },
+  {
+    "timestamp": "2026-01-28T09:55:16.658Z",
+    "action": "LOGIN_REQUEST",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "GUEST",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "email": "bommadihemanth@gmail.com",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "5443a8d74f6cfb5bd7dd7b614eee3e36250a89b9fd812282b88076b24f9ed1b3"
+  },
+  {
+    "timestamp": "2026-01-28T09:55:23.280Z",
+    "action": "LOGIN_COMPLETE",
+    "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+    "username": "Hemanth",
+    "role": "ADMIN",
+    "ip": "::1",
+    "metadata": {
+      "userId": "5b7c7fb1-6027-4ba1-859e-c38f199b9576",
+      "username": "Hemanth",
+      "role": "ADMIN",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0"
+    },
+    "status": "SUCCESS",
+    "hash": "925909bac044c25a0816e649142af0b96a72f299bfa25afaae594b9d6f853716"
+  }
+]

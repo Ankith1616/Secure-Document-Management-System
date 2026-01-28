@@ -1,0 +1,48 @@
+{
+    "roles": [
+        "admin",
+        "hr",
+        "employee"
+    ],
+    "resources": [
+        "users",
+        "documents",
+        "system"
+    ],
+    "permissions": {
+        "admin": {
+            "users": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ],
+            "documents": [
+                "read",
+                "delete"
+            ],
+            "system": [
+                "manage"
+            ]
+        },
+        "hr": {
+            "users": [
+                "read"
+            ],
+            "documents": [
+                "create",
+                "read",
+                "download"
+            ],
+            "system": []
+        },
+        "employee": {
+            "users": [],
+            "documents": [
+                "read_own",
+                "download_own"
+            ],
+            "system": []
+        }
+    }
+}
